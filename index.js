@@ -18,5 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function updateExpenseList(expense) {
-    expenseItem = document.createElement('div');
+    const expenseItem = document.createElement('div');
+    expenseItem.className = 'expense-item';
 }
