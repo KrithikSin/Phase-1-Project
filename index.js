@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             );
     }
     function updateExpenseList(expense) {
-        expense.
+        expenseList.innerHTML = '';
         const expenseItem = document.createElement('div');
         expenseItem.className = 'expense-item';
         expenseItem.innerHTML = `
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 category: expenseForm.querySelector('#expense-category').value,
             })
                 .then((resp) => resp.json())
-                .then(newExpense => updateExpenseList(newExpense)),
+                .then((newExpense) => updateExpenseList(newExpense)),
         });
     });
 });
