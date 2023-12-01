@@ -1,37 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Track Your Expenses</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-<div class = "container">
+    <div id="app">
+        <div id="balance">
+            <h2>Balance: $0.00</h2>
+        </div>
+
     <form id = "expense-form">
-        <h1>New Expense</h1>
+        <h2>New Expense</h2>
+        <label for="expense-description">Description:</label>
         <input
             type = "text"
-            name = "description"
-            value = ""
-            placeholder = "Enter expense description"
-            class = "input-text"
+            id="expense-description"
+            placeholder="Enter description"
+            class="input-text"
         />
         <br />
+        <label for="expense-amount">Amount:</label>
         <input 
-            type ="text"
-            name = "amount"
-            value = ""
-            placeholder = "Enter expense amount"
-            class = "input-text"
+            type="number"
+            id="expense-amount"
+            placeholder="Enter amount"
+            class="input-text"
             />
         <br />
+        <label for="expense-category">Category:</label>
         <input
-            type = "text"
-            name = "category"
-            value = ""
-            placeholder = "Enter expense category"
-            class =  "input-text"
+            type="text"
+            id="expense-category"
+            placeholder="Enter category"
+            class="input-text"
         />
         <br />
         <input
@@ -41,7 +44,7 @@
             class="submit"
         />
     </form>
-</div>
+    </div>
    
 
 

@@ -6,5 +6,5 @@ document.addEventListener('DOMContentLoaded', () => {
 function fetchData() {
     fetch('http://localhost:3000/expenses')
         .then((resp) => resp.json)
-        .then((data) => console.log(data));
+        .then((expense) => expense.forEach());
 }
