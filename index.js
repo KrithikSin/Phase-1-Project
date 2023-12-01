@@ -19,10 +19,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const expenseItem = document.createElement('div');
         expenseItem.className = 'expense-item';
         expenseItem.innerHTML = `
-        <p>Description: ${expense.desription}</p>
+        <p>Description: ${expense.description}</p>
         <p>Amount: ${expense.amount}</p>
         <p>Category: ${expense.category}</p>
         `;
+
         expenseList.appendChild(expenseItem);
     }
 });
