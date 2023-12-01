@@ -1,0 +1,9 @@
+{
+    "expenses": [
+      { "id": 1, "description": "Groceries", "amount": 50.00, "category": "Food" },
+      { "id": 2, "description": "Dinner", "amount": 30.00, "category": "Food" },
+      { "id": 3, "description": "Gas", "amount": 40.00, "category": "Utilities" },
+      { "id": 4, "description": "Movie Night", "amount": 25.00, "category": "Entertainment" },
+      { "id": 5, "description": "Gym Membership", "amount": 35.00, "category": "Health" }
+    ]
+  }
