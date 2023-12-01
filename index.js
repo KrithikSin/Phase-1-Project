@@ -1,11 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const balanceDisplay = document.getElementById('balance-display');
     const expenseForm = document.getElementById('expense-form');
-    const expenseDescriptionInput = document.getElementById(
-        'expense-description'
-    );
-    const expenseAmountInput = document.getElementById('expense-amount');
-    const expenseCategoryInput = document.getElementById('expense-category');
     const expenseList = document.getElementById('expense-list');
 
     function fetchData() {
@@ -26,4 +21,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
         expenseList.appendChild(expenseItem);
     }
+
+    expenseForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        fetch('http://localhost:3000/expenses', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                Accept: 'application/json',
+            },
+            body: JSON.stringify({
+                description: expenseForm.querySelector('#expense-description')
+                    .value,
+                amount: expenseForm.querySelector('#expense-amount').value,
+                category: expenseForm.querySelector('#expense-category').value,
+            }),
+        });
+    });
 });
