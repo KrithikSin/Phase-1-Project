@@ -36,9 +36,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     .value,
                 amount: expenseForm.querySelector('#expense-amount').value,
                 category: expenseForm.querySelector('#expense-category').value,
-            })
-                .then((resp) => resp.json())
-                .then((newExpense) => updateExpenseList(newExpense)),
-        });
+            }),
+        })
+            .then((resp) => resp.json())
+            .then((newExpense) => updateExpenseList(newExpense));
     });
 });
