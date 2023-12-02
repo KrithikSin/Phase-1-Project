@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         expenseItem.className = 'expense-item';
         expenseItem.innerHTML = `
         <p>Description: ${expense.description}</p>
-        <p>Amount: ${expense.amount}</p>
+        <p>Amount: ${expense.amount.toFixed(2)}</p>
         <p>Category: ${expense.category}</p>
         `;
 
@@ -53,6 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
             (total, expense) => total + parseFloat(expense.amount),
             0
         );
+        const fixedTotal = total.toFixed(2);
         balanceDisplay.innerHTML = `Balance: ${total}`;
     }
 });
