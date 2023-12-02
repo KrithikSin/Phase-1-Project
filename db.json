@@ -47,66 +47,6 @@
       "amount": "900",
       "category": "Electronics",
       "id": 8
-    },
-    {
-      "description": "Playstation",
-      "amount": "600",
-      "category": "Electronics",
-      "id": 9
-    },
-    {
-      "description": "Hat",
-      "amount": "5",
-      "category": "Electronics",
-      "id": 10
-    },
-    {
-      "description": "Coffee",
-      "amount": "5",
-      "category": "Food",
-      "id": 11
-    },
-    {
-      "description": "jacket",
-      "amount": "50",
-      "category": "clothing",
-      "id": 12
-    },
-    {
-      "description": "jacket",
-      "amount": "50",
-      "category": "clothing",
-      "id": 13
-    },
-    {
-      "description": "toy",
-      "amount": "15",
-      "category": "entertainment",
-      "id": 14
-    },
-    {
-      "description": "toy",
-      "amount": "15",
-      "category": "entertainment",
-      "id": 15
-    },
-    {
-      "description": "toy",
-      "amount": "15",
-      "category": "entertainment",
-      "id": 16
-    },
-    {
-      "description": "coffee",
-      "amount": "5",
-      "category": "food",
-      "id": 17
-    },
-    {
-      "description": "coffee",
-      "amount": "",
-      "category": "food",
-      "id": 18
     }
   ]
 }

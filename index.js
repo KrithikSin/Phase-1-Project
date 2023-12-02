@@ -7,8 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
         fetch('http://localhost:3000/expenses')
             .then((resp) => resp.json())
             .then((expenses) => {
-                (expenseList.innerHTML = ''),
-                    expenses.forEach((expense) => updateExpenseList(expense));
+                expenseList.innerHTML = '';
+                expenses.forEach((expense) => updateExpenseList(expense));
+                updateBalanceDisplay(expenses);
             });
     }
     function updateExpenseList(expense) {
@@ -42,5 +43,11 @@ document.addEventListener('DOMContentLoaded', () => {
             .then((newExpense) => fetchData());
     });
 
-    function updatebalanceDisplay(expenses) {}
+    function updateBalanceDisplay(expenses) {
+        const total = expenses.reduce(
+            (total, expense) => total + parseFloat(expense.amount),
+            0
+        );
+        balanceDisplay.innerHTML = `Balance: ${total}`;
+    }
 });
