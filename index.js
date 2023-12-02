@@ -27,7 +27,9 @@ document.addEventListener('DOMContentLoaded', () => {
         deleteBtn.addEventListener('click', () => handleDelete(expense));
     }
     function handleDelete(expense) {
-        fetch(`http`);
+        fetch(`http://localhost:3000/expenses/${expense.id}`, {
+            method: `DELETE`,
+        }).then(() => fetchData());
     }
     expenseForm.addEventListener('submit', (e) => {
         e.preventDefault();
