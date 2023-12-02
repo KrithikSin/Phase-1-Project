@@ -19,9 +19,11 @@ document.addEventListener('DOMContentLoaded', () => {
         <p>Description: ${expense.description}</p>
         <p>Amount: ${expense.amount}</p>
         <p>Category: ${expense.category}</p>
+        <button id="delete-btn" data-id="${expense.id}">Delete</button>
         `;
-
         expenseList.appendChild(expenseItem);
+
+        const deleteBtn = expenseItem.querySelector('#delete-btn');
     }
 
     expenseForm.addEventListener('submit', (e) => {
