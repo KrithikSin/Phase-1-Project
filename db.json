@@ -56,9 +56,27 @@
     },
     {
       "description": "Playstation",
-      "amount": "",
+      "amount": "599",
       "category": "Electronics",
-      "id": 10
+      "id": 11
+    },
+    {
+      "description": "Hat",
+      "amount": "5",
+      "category": "Clothing",
+      "id": 12
+    },
+    {
+      "description": "Playstation",
+      "amount": "5",
+      "category": "Electronics",
+      "id": 13
+    },
+    {
+      "description": "Playstation",
+      "amount": "599.99",
+      "category": "Electronics",
+      "id": 14
     }
   ]
 }
