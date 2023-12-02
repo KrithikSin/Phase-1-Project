@@ -26,21 +26,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
     expenseForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        fetch('http://localhost:3000/expenses', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                Accept: 'application/json',
-            },
-            body: JSON.stringify({
-                description: expenseForm.querySelector('#expense-description')
-                    .value,
-                amount: expenseForm.querySelector('#expense-amount').value,
-                category: expenseForm.querySelector('#expense-category').value,
-            }),
-        })
-            .then((resp) => resp.json())
-            .then((newExpense) => fetchData());
+        const description = expenseForm.querySelector(
+            '#expense-description'
+        ).value;
+        const amount = expenseForm.querySelector('#expense-amount').value;
+        const category = expenseForm.querySelector('#expense-category').value;
+        if (description && !isNaN(amount) && category)
+            fetch('http://localhost:3000/expenses', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    Accept: 'application/json',
+                },
+                body: JSON.stringify({
+                    description: description,
+                    amount: amount,
+                    category: category,
+                }),
+            })
+                .then((resp) => resp.json())
+                .then((newExpense) => fetchData());
     });
 
     function updateBalanceDisplay(expenses) {
