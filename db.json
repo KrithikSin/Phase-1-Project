@@ -77,6 +77,12 @@
       "amount": "599.99",
       "category": "Electronics",
       "id": 14
+    },
+    {
+      "description": "Sofa",
+      "amount": "799.99",
+      "category": "Furniture",
+      "id": 15
     }
   ]
 }
