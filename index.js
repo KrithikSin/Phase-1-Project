@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
             );
     }
     function updateExpenseList(expense) {
-        expenseList.innerHTML = '';
         const expenseItem = document.createElement('div');
         expenseItem.className = 'expense-item';
         expenseItem.innerHTML = `
@@ -39,6 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }),
         })
             .then((resp) => resp.json())
-            .then((newExpense) => updateExpenseList(newExpense));
+            .then((newExpense) => fetchData());
     });
 });

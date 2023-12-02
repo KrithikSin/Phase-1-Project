@@ -38,9 +38,21 @@
     },
     {
       "description": "Playstation",
-      "amount": "600",
+      "amount": "599",
       "category": "Electronics",
       "id": 7
+    },
+    {
+      "description": "iphone",
+      "amount": "900",
+      "category": "Electronics",
+      "id": 8
+    },
+    {
+      "description": "Playstation",
+      "amount": "600",
+      "category": "Electronics",
+      "id": 9
     }
   ]
 }
