@@ -41,4 +41,6 @@ document.addEventListener('DOMContentLoaded', () => {
             .then((resp) => resp.json())
             .then((newExpense) => fetchData());
     });
+
+    function updatebalanceDisplay(expenses) {}
 });

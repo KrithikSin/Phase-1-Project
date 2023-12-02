@@ -95,6 +95,18 @@
       "amount": "15",
       "category": "entertainment",
       "id": 16
+    },
+    {
+      "description": "coffee",
+      "amount": "5",
+      "category": "food",
+      "id": 17
+    },
+    {
+      "description": "coffee",
+      "amount": "",
+      "category": "food",
+      "id": 18
     }
   ]
 }
