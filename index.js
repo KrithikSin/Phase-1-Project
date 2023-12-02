@@ -6,9 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
     function fetchData() {
         fetch('http://localhost:3000/expenses')
             .then((resp) => resp.json())
-            .then((expenses) =>
-                expenses.forEach((expense) => updateExpenseList(expense))
-            );
+            .then((expenses) => {
+                (expenseList.innerHTML = ''),
+                    expenses.forEach((expense) => updateExpenseList(expense));
+            });
     }
     function updateExpenseList(expense) {
         const expenseItem = document.createElement('div');
