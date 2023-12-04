@@ -8,13 +8,20 @@ body {
     background-color: #252525;
     margin: 30px;
     border-radius: 20px;
+    border: 5px solid orange;
 }
 
 #balance-display h2 {
     color: orange;
 }
 
+
 .input-text {
     margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid orange;
+    color: orange;
+    background-color: #333;
 }
+
 
