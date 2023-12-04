@@ -24,4 +24,13 @@ body {
     background-color: #333;
 }
 
+.submit {
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    width: 150px;
+    margin-top: 20px;
+}
 
