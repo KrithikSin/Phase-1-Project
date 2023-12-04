@@ -47,6 +47,18 @@
       "amount": "540.66",
       "category": "Electronics",
       "id": 10
+    },
+    {
+      "description": "Playstation",
+      "amount": "599.99",
+      "category": "Electronics",
+      "id": 11
+    },
+    {
+      "description": "guitar",
+      "amount": "200",
+      "category": "entertainment",
+      "id": 12
     }
   ]
 }

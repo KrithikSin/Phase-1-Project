@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-    <h1>Track Your Expenses!</h1>
+    <h1>Track Your Expenses</h1>
     <div id="app">
         <div id="balance-display">
             <h2>Balance: $0.00</h2>
@@ -14,37 +14,40 @@
 
     <form id = "expense-form">
         <h2>New Expense</h2>
-        <label for="expense-description">Description:</label>
-        <input
-            type = "text"
-            id="expense-description"
-            placeholder="Enter description"
-            class="input-text"
-        />
-        <br />
-        <label for="expense-amount">Amount:</label>
-        <input 
-            type="number"
-            id="expense-amount"
-            placeholder="Enter amount"
-            class="input-text"
-            step=".01"
+        <div id ="input-container">
+            <label for="expense-description">Description:</label>
+            <input
+                type = "text"
+                id="expense-description"
+                placeholder="Enter description"
+                class="input-text"
             />
-        <br />
-        <label for="expense-category">Category:</label>
-        <input
-            type="text"
-            id="expense-category"
-            placeholder="Enter category"
-            class="input-text"
-        />
-        <br />
-        <input
-            type="submit"
-            name="submit"
-            value="List Expense"
-            class="submit"
-        />
+            <br />
+            <label for="expense-amount">Amount:</label>
+            <input 
+                type="number"
+                id="expense-amount"
+                placeholder="Enter amount"
+                class="input-text"
+                step=".01"
+                />
+            <br />
+            <label for="expense-category">Category:</label>
+            <input
+                type="text"
+                id="expense-category"
+                placeholder="Enter category"
+                class="input-text"
+            />
+            <br />
+            <input
+                type="submit"
+                name="submit"
+                value="List Expense"
+                class="submit"
+            />
+        </div>
+       
     </form>
 
     <div id="expense-list-container">
