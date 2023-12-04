@@ -54,7 +54,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 }),
             })
                 .then((resp) => resp.json())
-                .then((newExpense) => fetchData());
+                .then((newExpense) => {
+                    fetchData();
+                    expenseForm.reset();
+                });
     });
 
     function updateBalanceDisplay(expenses) {

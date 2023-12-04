@@ -35,6 +35,36 @@
       "amount": "749.99",
       "category": "furniture",
       "id": 17
+    },
+    {
+      "description": "Playstation",
+      "amount": "599.99",
+      "category": "Electronics",
+      "id": 18
+    },
+    {
+      "description": "laptop",
+      "amount": "499.99",
+      "category": "Electronics",
+      "id": 19
+    },
+    {
+      "description": "iphone",
+      "amount": "899",
+      "category": "Electronics",
+      "id": 20
+    },
+    {
+      "description": "Playstation",
+      "amount": "599",
+      "category": "Electronics",
+      "id": 21
+    },
+    {
+      "description": "Hat",
+      "amount": "5.99",
+      "category": "Clothing",
+      "id": 22
     }
   ]
 }
