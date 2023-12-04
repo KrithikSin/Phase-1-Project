@@ -4,11 +4,17 @@ body {
     color: white;
 }
 
+#app {
+    background-color: #252525;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+#balance-display h2 {
+    color: orange;
+}
+
 .input-text {
     margin-bottom: 10px;
 }
 
-.delete-btn {
-    background-color: red;
-    padding: 5px 10px;
-}

@@ -32,32 +32,14 @@
     },
     {
       "description": "Playstation",
-      "amount": "599.97",
-      "category": "Electronics",
-      "id": 8
-    },
-    {
-      "description": "Playstation",
-      "amount": "540.66",
-      "category": "Electronics",
-      "id": 9
-    },
-    {
-      "description": "Playstation",
-      "amount": "540.66",
-      "category": "Electronics",
-      "id": 10
-    },
-    {
-      "description": "Playstation",
       "amount": "599.99",
       "category": "Electronics",
       "id": 11
     },
     {
-      "description": "guitar",
-      "amount": "200",
-      "category": "entertainment",
+      "description": "Playstation",
+      "amount": "599.99",
+      "category": "Electronics",
       "id": 12
     }
   ]
