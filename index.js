@@ -26,11 +26,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const deleteBtn = expenseItem.querySelector('#delete-btn');
         deleteBtn.addEventListener('click', () => handleDelete(expense));
     }
+
     function handleDelete(expense) {
         fetch(`http://localhost:3000/expenses/${expense.id}`, {
             method: `DELETE`,
         }).then(() => fetchData());
     }
+
     expenseForm.addEventListener('submit', (e) => {
         e.preventDefault();
         const description = expenseForm.querySelector(

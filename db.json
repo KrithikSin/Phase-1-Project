@@ -1,88 +1,52 @@
 {
   "expenses": [
     {
-      "id": 1,
-      "description": "Groceries",
-      "amount": 50,
-      "category": "Food"
-    },
-    {
-      "id": 2,
-      "description": "Dinner",
-      "amount": 30,
-      "category": "Food"
-    },
-    {
       "id": 3,
       "description": "Gas",
-      "amount": 40,
+      "amount": 46.77,
       "category": "Utilities"
     },
     {
       "id": 4,
       "description": "Movie Night",
-      "amount": 25,
+      "amount": 24.35,
       "category": "Entertainment"
     },
     {
       "id": 5,
       "description": "Gym Membership",
-      "amount": 35,
+      "amount": 35.99,
       "category": "Health"
     },
     {
-      "description": "Playstation 5",
-      "amount": 599,
+      "description": "Playstation",
+      "amount": "599.97",
       "category": "Electronics",
       "id": 6
     },
     {
       "description": "Playstation",
-      "amount": "599",
+      "amount": "599.97",
       "category": "Electronics",
       "id": 7
     },
     {
-      "description": "iphone",
-      "amount": "900",
+      "description": "Playstation",
+      "amount": "599.97",
       "category": "Electronics",
       "id": 8
     },
     {
       "description": "Playstation",
-      "amount": "599",
+      "amount": "540.66",
       "category": "Electronics",
       "id": 9
     },
     {
       "description": "Playstation",
-      "amount": "599",
+      "amount": "540.66",
       "category": "Electronics",
-      "id": 11
-    },
-    {
-      "description": "Hat",
-      "amount": "5",
-      "category": "Clothing",
-      "id": 12
-    },
-    {
-      "description": "Playstation",
-      "amount": "5",
-      "category": "Electronics",
-      "id": 13
-    },
-    {
-      "description": "Playstation",
-      "amount": "599.99",
-      "category": "Electronics",
-      "id": 14
-    },
-    {
-      "description": "Sofa",
-      "amount": "799.99",
-      "category": "Furniture",
-      "id": 15
+      "id": 10
     }
   ]
 }

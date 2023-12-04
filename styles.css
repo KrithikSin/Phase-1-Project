@@ -1,5 +1,7 @@
 body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    
-    
+    text-align: center;
+}
+
+.input-text {
+    margin-bottom: 10px;
 }
