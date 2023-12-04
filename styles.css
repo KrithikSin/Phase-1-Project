@@ -11,8 +11,12 @@ body {
     border: 5px solid orange;
 }
 
-#balance-display h2 {
+#balance-display {
     color: orange;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 5px solid orange;
+    padding: 10px;
 }
 
 
