@@ -1,70 +1,10 @@
 {
   "expenses": [
     {
-      "id": 3,
-      "description": "Gas",
-      "amount": 46.77,
-      "category": "Utilities"
-    },
-    {
-      "id": 4,
-      "description": "Movie Night",
-      "amount": 24.35,
-      "category": "Entertainment"
-    },
-    {
-      "id": 5,
-      "description": "Gym Membership",
-      "amount": 35.99,
-      "category": "Health"
-    },
-    {
-      "description": "Playstation",
-      "amount": "599.97",
-      "category": "Electronics",
-      "id": 6
-    },
-    {
-      "description": "Hat",
-      "amount": "5.77",
-      "category": "clothing",
-      "id": 15
-    },
-    {
-      "description": "bed",
-      "amount": "749.99",
-      "category": "furniture",
-      "id": 17
-    },
-    {
-      "description": "Playstation",
-      "amount": "599.99",
-      "category": "Electronics",
-      "id": 18
-    },
-    {
-      "description": "laptop",
-      "amount": "499.99",
-      "category": "Electronics",
-      "id": 19
-    },
-    {
-      "description": "iphone",
-      "amount": "899",
-      "category": "Electronics",
-      "id": 20
-    },
-    {
-      "description": "Playstation",
-      "amount": "599",
-      "category": "Electronics",
-      "id": 21
-    },
-    {
-      "description": "Hat",
-      "amount": "5.99",
-      "category": "Clothing",
-      "id": 22
+      "description": "coffee",
+      "amount": "6.23",
+      "category": "Food",
+      "id": 2
     }
   ]
 }
