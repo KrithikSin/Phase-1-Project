@@ -72,6 +72,6 @@ document.addEventListener('DOMContentLoaded', () => {
             0
         ); // reduce method takes all the amount values of every expense item and sums them into one number, the total
         const fixedTotal = total.toFixed(2); // the toFixed method allows the number to have 2 decimal places to represent money value
-        balanceDisplay.innerHTML = `Balance: ${fixedTotal}`; // update the balance on the DOM dynamically to show new total
+        balanceDisplay.innerHTML = `Balance: $${fixedTotal}`; // update the balance on the DOM dynamically to show new total
     }
 });
