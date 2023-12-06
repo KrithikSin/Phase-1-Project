@@ -21,3 +21,7 @@ How to Install and Run the Project
             3. Open the 'index.html' file in your web browser
 
 Once installed, you can begin to Track Your Expenses :D
+
+Below is a demonstration of adding an expense item onto the application, very easy!
+
+![ezgif com-optimize](https://github.com/KrithikSin/Phase-1-Project/assets/106179844/2bbc61c7-9e1b-4e2a-b6f9-49eb0156d8a5)
